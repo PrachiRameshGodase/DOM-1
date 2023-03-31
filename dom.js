@@ -35,15 +35,30 @@
 
 //create element
 //create a div
-let newDiv=document.createElement("div");
-newDiv.className="hello";
-newDiv.id="hello1";
-newDiv.setAttribute("title","hello Div");
-let newDivText=document.createTextNode("Hello World");
-newDiv.appendChild(newDivText);
-let container=document.querySelector("header .container");
-let h1=document.querySelector("header h1");
-console.log(newDiv);
-newDiv.style.fontSize="30px";
-container.insertBefore(newDiv, h1);
+// let newDiv=document.createElement("div");
+// newDiv.className="hello";
+// newDiv.id="hello1";
+// newDiv.setAttribute("title","hello Div");
+// let newDivText=document.createTextNode("Hello World");
+// newDiv.appendChild(newDivText);
+// let container=document.querySelector("header .container");
+// let h1=document.querySelector("header h1");
+// console.log(newDiv);
+// newDiv.style.fontSize="30px";
+// container.insertBefore(newDiv, h1);
+
+let newli=document.createElement("li");
+newli.className="hello";
+newli.id="heloo2";
+newli.setAttribute("title","hello li");
+let newliText=document.createTextNode("Hello world");
+newli.appendChild(newliText);
+
+
+let listGroup=document.querySelector("ul .list-group");
+let li=document.querySelector("ul li");
+console.log(newli);
+
+
+
 
